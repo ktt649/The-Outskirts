@@ -1,0 +1,70 @@
+html{
+	text-transform: uppercase;
+}
+body{ 
+	text-transform: uppercase;
+}
+button{
+	text-transform: uppercase;
+}
+#form{
+	display: none;
+	text-transform: uppercase;
+}
+
+#invisible-info{
+	text-align:left;
+	margin-top: 15%;
+	margin: auto;
+	width: 70%;
+}
+
+#invisible-info input{
+	text-decoration: none;
+ 	color: #DCDCDC;
+  	text-shadow: 0 2.5px 0 rgba(0,0,0,.6);
+  	background: #242424;
+  	background-image: linear-gradient(to bottom, #797979, #242424);
+}
+
+strong{
+	display:inline;
+	color: white;
+	font-size: 15pt;
+	font-family: helvetica;
+	font-weight: normal;
+	margin-left: .2%;
+	color: #DCDCDC;
+  	text-shadow: 0 2.5px 0 rgba(0,0,0,.6);
+}
+
+.cardType{
+}
+
+.inputBox{
+	height: 50px;
+	color: white;
+	margin-top: 1%;
+	font-size: 15pt;
+	margin-bottom: 1%;
+}
+
+.card{
+	width: 80%;
+}
+
+.name{
+	width: 99.2%;
+}
+
+.cvv{
+	width: 16.5%;
+	float:right;
+}
+
+.placeOrder{
+	width:100%;
+	color: #DCDCDC;
+  	text-shadow: 0 2.5px 0 rgba(0,0,0,.6);
+  	background-image: linear-gradient(to bottom,rgb(134,241,0) , #242424);
+}

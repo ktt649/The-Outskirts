@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The Outskirts</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/checkout.css">
+    <link rel="stylesheet" type="text/css" href="css/checkout_form.css">   
+        <script src="./scripts/checkout/checkout.js"></script>
+        <script src="./scripts/checkout/showCheckout.js"></script>
+
+</head>
+<body>
+		<header>
+</header>
+    
+    <nav id="navbar" >
+    <div class="container">
+    	<ul>
+        	<li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="store.html">STORE</a></li>
+            <li><a href="tour.html">TOUR</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="checkout.html">CHECKOUT</a><li>
+        </ul>
+        </div>
+    </nav>
+    
+    <div id = "buttonContainer">
+        <button class = "shoppingButton continueShopping">Continue Shopping </button>
+        <button id = "confirm" class = "shoppingButton">Confirm Purchase </button>
+    </div>
+<div id = "feature-wrap">
+    
+    <div id = "form">
+        <form id = "invisible-info">
+                <strong>Customer Name:</strong> <br>
+                <input class = "inputBox name" type = "text" name = "name" value = "Customer Name"><br>
+               
+                <strong>Credit Card:   </strong>
+                 <input id = "mastercard" class = "cardType" type = "radio" name = "cardType" value = "MasterCard"> <strong>MasterCard</strong>
+                
+                <input id = "visa" class = "cardType" type = "radio" name = "cardType" value = "Visa"> <strong>Visa</strong> <br>
+
+                <input id = "cardNumber" class = "inputBox card" type = "text" name = "card" value = "Credit Card Number"> 
+                <input class = "inputBox cvv" type = "text" name = "cvv" value = "CVV"><br>
+               
+                <button id = "placeOrder" class = "inputBox placeOrder" type = "submit"> Place Order </button>  
+         </form>
+    </div>
+</div>
+</body>
+<footer id="footer"> 
+        <div class="container">
+            <p>FOLLOW THE OUTSKIRTS</p>
+                <a href="https://www.spotify.com"  target="_blank"><img src="img/icons/spotify.png" alt="spotify.com" class="socialIcon"></a>
+                <a href="https://www.twitter.com"  target="_blank"><img src="img/icons/twitter.png" alt="twitter.com" class="socialIcon"></a>
+                <a href="https://www.instagram.com/officialoutskirts"  target="_blank"><img src="img/icons/instagram.png" alt="instagram.com" class="socialIcon"></a>
+                <a href="https://www.facebook.com/TheOutskirtsOfficial/"  target="_blank"><img src="img/icons/facebook.png" alt="facebook.com" class="socialIcon"></a>
+        </div>
+</footer>
+</html>

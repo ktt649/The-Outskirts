@@ -1,0 +1,117 @@
+html {
+	height: 100%;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+caption {
+	font-weight: bold;
+	font-size:2em;
+	
+}
+
+caption img {
+  box-shadow: 0 1px 1px 1px rgba(0,0,0,.4);
+  height: 20vw;
+  width: 74vw;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+    padding: 5pt 30pt 0pt 40pt;
+    margin: auto;
+    font-family: Helvetica;
+    color: white;
+}
+
+.container2 {
+	margin: 10% 5% 10% 5%;
+	padding: 2%;
+  background-image: linear-gradient(to bottom, #797979, #242424); 
+	box-shadow: 0 4px 4px 4px rgba(0,0,0,.65);
+  overflow: hidden;
+}
+
+th{
+	text-align: left;
+	text-decoration: none;
+  color: #DCDCDC;
+  text-shadow: 0 2px 0 rgba(0,0,0,5);
+  border-radius: 5px 0 0 0;
+  font-size:1.7vw;
+}
+
+td{
+	text-decoration: none;
+  color: #DCDCDC;
+  text-shadow: 0 2px 0 rgba(0,0,0,.6);
+  border-radius: 5px 0 0 0;
+  padding-top: 1.5%;
+  font-size:1.6vw;
+}
+
+button {
+  color: #797979;
+  background-color: #242424;
+  text-decoration: none;
+  color: #DCDCDC;
+  text-shadow: 0 2px 0 rgba(0,0,0,.8);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size:1vw;
+}
+
+button:hover,
+button:hover::after,
+button:focus,
+button:focus::after {
+  background: #DCDCDC;
+  color: #242424;
+  text-shadow: 0 2px 0 rgba(255,255,255,.8);
+  transform: scale(1.1);
+}	
+
+#checkingout {
+  text-decoration: none;
+	margin-top: 3%;
+	margin-left: 42%;
+	text-align: center;
+	color: #797979;
+  background-color: #242424;
+  color: #DCDCDC;
+  font-size: 2em;
+  text-shadow: 0 2px 0 rgba(0,0,0,.8);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size:2.3vw;
+}
+
+#checkingout a {
+	text-decoration: none;
+	color: #797979;
+  background-color: #242424;
+  color: #DCDCDC;
+}
+
+#checkingout:hover,
+#checkingout:hover::after,
+#checkingout:focus,
+#checkingout:focus::after {
+  background: #DCDCDC;
+  color: #242424;
+  text-shadow: 0 2px 0 rgba(255,255,255,.8);
+  transform: scale(1.1);
+}
+
+#checkingout a:hover,
+#checkingout a:hover::after,
+#checkingout a:focus,
+#checkingout a:focus::after {
+  background: #DCDCDC;
+  color: #242424;
+  text-shadow: 0 2px 0 rgba(255,255,255,.8);
+  transform: scale(1.1);
+}

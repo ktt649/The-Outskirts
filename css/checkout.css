@@ -1,0 +1,142 @@
+.clearboth{
+	clear: both;
+}
+html{
+	font-family: helvetica;
+}
+body{
+	margin-top: 10%;
+	background-color: rgba(64,64,64,1);
+	margin-bottom: 10%;
+	padding-bottom: 10%;
+}
+
+#feature-wrap{
+	width: 80%;
+	margin: auto;
+	min-width: 550px;
+}
+
+
+#buttonContainer{
+	width: 100%;
+	margin-bottom: 3%;
+	text-align: center;
+
+}
+.shoppingButton{
+	background-color: rgb(159,159,159);
+	font-family: helvetica;
+	color: white;
+	height: 50px;
+	font-size: 15pt;
+	text-decoration: none;
+ 	color: #DCDCDC;
+  	text-shadow: 0 2.5px 0 rgba(0,0,0,.6);
+  	background: #242424;
+  	background-image: linear-gradient(to bottom, #797979, #242424);  
+}
+
+.continueShopping{
+	margin:auto;
+}
+
+#confirm{
+	margin: auto;
+}
+
+
+
+/** CSS FOR DISPLAYING CART */
+h1 {
+	text-align: center;
+	color: white;
+}
+
+.feature-box{
+	width: 40%;
+	margin: auto;
+	min-width: 550px;
+	height:75px;
+	margin: 20px auto;
+	padding: 5px;
+	background-color: #242424;
+	border-radius: 5px;
+	text-decoration: none;
+ 	color: #DCDCDC;
+  	text-shadow: 0 2.5px 0 rgba(0,0,0,.6);
+  	background: #242424;
+  	background-image: linear-gradient(to bottom, #797979, #242424);  
+}
+
+.item-box{
+	margin: auto;
+	float:left;
+	width: 40%;
+}
+
+.item-box img {
+	width: 40%;
+	height: 75px;
+}
+
+.model-box{
+	margin: auto;
+	width: 20%;
+	font-size: 16pt;
+	text-align: center;
+	float: left;
+}
+
+.price-box{
+	margin: auto;
+	width: 20%;
+	float: right;
+	margin-top: 3px;
+	font-size: 24pt;
+}
+
+.deleteButton{
+	margin: auto;
+	display: block;
+	margin-top: 3px;
+	font-size: 10px;
+  	padding: 5px 15px;
+  	text-align: left;
+  	border-radius: 5px;
+  	color: white;
+  	background-color: black;
+}
+
+.total-text-box{
+	height: 75px;
+	color: black;
+	width: 60%;
+	float: left;
+	font-size: 18pt;
+	color: #DCDCDC;
+  	text-shadow: 0 3.5px 0 rgba(0,0,0,.6);
+}
+
+.total-text-box h2{
+	padding-top: 10px;
+	vertical-align: middle;
+	margin:auto;
+}
+
+#price-total-box{
+	height: 75px;
+	color: black;
+	float: right;
+	width: 40%;
+	font-size: 18pt;
+	color: #DCDCDC;
+  	text-shadow: 0 3.5px 0 rgba(0,0,0,.6);
+}
+
+#price-total-box h2{
+	padding-top: 10px;
+	vertical-align: middle;
+	margin: auto;
+	font-weight: lighter;
+	text-align: right;

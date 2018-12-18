@@ -1,0 +1,63 @@
+html {
+    text-transform: uppercase;
+}
+	
+#contact {
+	text-align: center;
+	color:#FFF;
+	text-decoration: none;
+	
+}
+
+#contact ul{
+	text-decoration: none;
+	font-size:2vw;
+	font-weight:bold;
+	font-family: Helvetica;
+	padding-top: 5%;
+	margin-left: 0%;
+	text-decoration: none;
+  	color: #DCDCDC;
+  	text-shadow: 0 3px 0 rgba(0,0,0,.6);
+	
+}
+
+#contact li{
+	display:inline;
+	padding: 5%;
+}
+
+#contact a {
+	color:#FFF;
+	text-decoration:none;
+}
+
+
+#contactemail a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+
+#feed {
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+
+#feed li{
+	display:inline;
+	padding: 10%;
+	padding-left: 6.4%;
+}
+
+#feed iframe{
+	width: 28vw; 
+	height: 48vw;
+}
+
+#feed a{
+	width: 24vw; 
+	height: 48vw;
+	
+}

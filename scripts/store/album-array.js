@@ -1,0 +1,18 @@
+var albums = [    
+  {   "model":"Outskirts: Self Titled",
+      "description":"Outskirts: Self Titled", 
+      "photoLocation":"img/outskirtsLogo.png", 
+      "price":12.99},      
+  {   "model":"Life", 
+      "description":"Life: The Outskirts' Second LP",
+      "photoLocation":"img/life.png", 
+      "price":12.99},
+  {   "model":"Zero Gravity",
+      "description":"Zero Gravity: The Outskirts' Third LP", 
+      "photoLocation":"img/zerogravity.png", 
+      "price":12.99},      
+  {   "model":"Rise Up", 
+      "description":"Rise Up: The Latest Studio Album by The Outskirts",
+      "photoLocation":"img/riseup.png", 
+      "price":14.99},
+];
